@@ -1,18 +1,16 @@
-// pages/about.js
-
+// pages/contact.js
 import React from 'react';
 import NavBar from '../components/NavBar';
 
-
-function AboutPage() {
+function ContactPage() {
   return (
   <div>
     <link rel="stylesheet" href="/style.css" />
     <NavBar />
-    About page content
+    My Work page content
     </div>
   );
   
 }
 
-export default AboutPage;
+export default ContactPage;

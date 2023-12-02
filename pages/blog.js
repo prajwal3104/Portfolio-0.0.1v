@@ -9,7 +9,7 @@ function AboutPage() {
   <div>
     <link rel="stylesheet" href="/style.css" />
     <NavBar />
-    About page content
+    Blog page content
     </div>
   );
   
