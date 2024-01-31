@@ -1,16 +1,20 @@
-// pages/index.js or your layout component
-
+// pages/about.js
 import React from 'react';
 import NavBar from '../components/NavBar';
+import '../components/style_index.css'; // Import the CSS directly
+import Spline from '@splinetool/react-spline';
+import Index from '../components/index';
 
-function HomePage() {
+function ContactPage() {
   return (
-    <div>
-      <link rel="stylesheet" href="/style.css" />
-      <NavBar />
-      <div>Welcome to the homepage.</div>
+  <div>
+    <link rel="stylesheet" href="/style.css" />
+    <NavBar />
+    My Work page content
     </div>
   );
+  
 }
 
-export default HomePage;
+
+export default Index;

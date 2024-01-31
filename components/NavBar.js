@@ -4,11 +4,11 @@ import styles from './style.css';
 const NavBar = () => {
   return (
     <nav className={styles.nav}>
-      <Link href="/"> {/* Wrap the logo with a Link */}
+      <Link href="/"> 
         <img src="/images/Logo.svg" alt="Logo" className={styles.logo} 
-        style = {{ marginTop: '10px', marginLeft: '-6px' }} />
+        style = {{ marginTop: '15px', marginLeft: '-4px'}} />
       </Link>
-      <Link href="/"> {/* Wrap the name with a Link */}
+      <Link href="/"> 
         <img src="/images/Name.svg" alt="Name" className={styles.name} 
         style = {{marginLeft: '15px'}}/>
       </Link>
