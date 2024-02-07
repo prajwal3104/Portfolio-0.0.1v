@@ -16,7 +16,7 @@ const NavBar = () => {
         <li className={styles.navItem}>
           <Link href="/about">
           <img src="images/about.svg" alt="About" className={styles.about} 
-          style={{marginLeft: '240px'}}/>
+          style={{marginLeft: '240px', marginTop: '-10px'}}/>
           </Link>
         </li>
         <li className={styles.navItem}>

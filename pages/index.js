@@ -2,7 +2,6 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
 import '../components/style_index.css'; // Import the CSS directly
-import Spline from '@splinetool/react-spline';
 import Index from '../components/index';
 
 function ContactPage() {

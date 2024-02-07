@@ -5,9 +5,10 @@
     padding: 20px; /* Add padding for spacing inside the box */
     border-radius: 50px; /* Optional: Add rounded corners */
     height: 590px;
-    width: 1350px;
-    margin-left: 24px;
+    margin-left: 25px;
+    margin-right: 25px;
     margin-top: 15px;
+    align-content: center;
   }
 
   .about {
@@ -26,14 +27,44 @@
 
   }
 
-  .Name p {
+  /* .Name {
     font-family: 'Alegreya', serif;
-    margin-top: 105px;
+    margin-top: 14px;
     font-size: 110px;
     color: #3A3B3C;
     text-shadow: -2px 2px 8px;
   }
   
+  .Name .about-text {
+    font-size: 29px;
+    margin-top: 40px;
+    margin-bottom: 170px;
+  } */
+
+  .name-container{
+    margin-top: 20px;
+  }
+
+  .about-text {
+    font-size: 28px; /* Smaller font size for additional text */
+    color: #3A3B3C; /* Adjust color as desired */
+    margin-top: -75px; /* Space between lines */
+    text-shadow: -2px 2px 8px;
+  }
+  
+  .name-text {
+    font-size: 110px; /* Smaller font size for additional text */
+    color: #3A3B3C; /* Adjust color as desired */
+    margin-top: -110px; /* Space between lines */
+    text-shadow: -2px 2px 8px;
+  }
+  
+  .hey-text {
+    font-size: 110px; /* Smaller font size for additional text */
+    color: #3A3B3C; /* Adjust color as desired */
+    margin-top: 60px; /* Space between lines */
+    text-shadow: -2px 2px 8px;
+  }
   
   
   

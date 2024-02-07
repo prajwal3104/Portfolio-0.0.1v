@@ -1,5 +1,11 @@
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: row;
+}
+}
 
-
+@media (max-width: 480px) {
+}
 
 body {
   margin: 0;
@@ -7,35 +13,28 @@ body {
   padding: 0;
 }
 
-nav {
-  background-color: #252525;
-  color: #fff;
+.nav {
   display: flex;
-  align-items: center; /* Vertically center the logo and text */
-  padding: 8px;
-  height: 97px;
+  align-items: center;
+  
 }
+.navList {
+  display: flex;
+  flex-direction: row;
+}
+.nav-container {
+  display: grid;
+  grid-template-columns: auto auto 1fr auto auto;
+}
+
 
 ul {
-  list-style: none;
-  padding: 10;
   display: flex;
-  justify-content: space-around;
-  align-items: center; /* Vertically center the navigation items */
-}
-
-li {
-  margin: 10;
-  padding: 10;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
+  list-style: none;
   padding: 0;
+  margin: 2px;
+  justify-content: space-around;
 }
-
-/* Add styles for the .logo class */
 .logo {
   fill: #fff;
   width: 30px;
@@ -51,4 +50,3 @@ a {
   margin-right: 20px;
   margin-bottom: 20px; /* Adjust this value to push the name image down */
 }
-
